@@ -1,14 +1,11 @@
 "on": push
-env:
-  MIX_ENV: test
-  MAX_TEST_FAILURES: 5
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Elixir & Erlang based on .tool-versions file
+      - name: Install Erlang & Elixir based on .tool-versions file
         uses: erlef/setup-beam@v1
         with:
           version-file: .tool-versions
