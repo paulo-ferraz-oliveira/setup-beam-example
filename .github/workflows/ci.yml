@@ -4,6 +4,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - id: get_version
-        uses: battila7/get-version-action@v2
-      - run: echo ${{ steps.get_version.outputs.version }}
-      - run: echo ${{ github.context.ref }}
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: 26
+      - run: echo ${{ toJson(github) }}
