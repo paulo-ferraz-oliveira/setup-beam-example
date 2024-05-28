@@ -4,13 +4,8 @@ jobs:
   example:
     runs-on: ubuntu-22.04
     steps:
-      - env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          echo "otp-version=$(gh release view --repo erlang/otp --json tagName --jq .tagName)" >> "${GITHUB_OUTPUT}"
-          echo "elixir-version=$(gh release view --repo elixir-lang/elixir --json tagName --jq .tagName)" >> "${GITHUB_OUTPUT}"
-        id: latest-versions
+      - uses: actions/checkout@v4
       - uses: erlef/setup-beam@v1
         with:
-          otp-version: ${{ steps.latest-versions.outputs.otp-version }}
-          elixir-version: ${{ steps.latest-versions.outputs.elixir-version }}
+          version-file: ".tool-versions"
+          version-type: strict
