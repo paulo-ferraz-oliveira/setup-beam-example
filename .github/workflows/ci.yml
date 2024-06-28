@@ -15,4 +15,4 @@ jobs:
       - uses: erlef/setup-beam@v1
         with:
           otp-version: master
-          elixir-version: master
+          elixir-version: main
