@@ -9,9 +9,10 @@
   workflow_dispatch: {}
 jobs:
   example:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: erlef/setup-beam@v1
         with:
-          otp-version: "master"
+          otp-version: master
+          elixir-version: master
