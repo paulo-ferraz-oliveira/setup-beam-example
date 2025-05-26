@@ -9,7 +9,7 @@
   workflow_dispatch: {}
 jobs:
   example:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: erlef/setup-beam@v1.18.1
         with:
