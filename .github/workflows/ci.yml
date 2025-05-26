@@ -9,7 +9,7 @@
   workflow_dispatch: {}
 jobs:
   e1:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -17,7 +17,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e2:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -25,7 +25,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e3:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -33,7 +33,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e4:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -41,7 +41,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e5:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -49,7 +49,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e6:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -57,7 +57,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e7:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -65,7 +65,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e8:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -73,7 +73,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e9:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -81,7 +81,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e10:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -89,7 +89,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e11:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -97,7 +97,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e12:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -105,7 +105,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e13:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -113,7 +113,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e14:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -121,7 +121,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e15:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -129,7 +129,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e16:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -137,7 +137,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e17:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -145,7 +145,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e18:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -153,7 +153,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e19:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -161,7 +161,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e20:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -169,7 +169,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e21:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -177,7 +177,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e22:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -185,7 +185,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e23:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -193,7 +193,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e24:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -201,7 +201,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e25:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -209,7 +209,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e26:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -217,7 +217,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e27:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -225,7 +225,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e28:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -233,7 +233,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e29:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -241,7 +241,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e30:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -249,7 +249,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e31:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -257,7 +257,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e32:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -265,7 +265,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e33:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -273,7 +273,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e34:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -281,7 +281,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e35:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -289,7 +289,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e36:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -297,7 +297,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e37:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -305,7 +305,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e38:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -313,7 +313,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e39:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -321,7 +321,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e40:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -329,7 +329,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e41:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -337,7 +337,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e42:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -345,7 +345,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e43:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -353,7 +353,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e44:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -361,7 +361,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e45:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -369,7 +369,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e46:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -377,7 +377,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e47:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -385,7 +385,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e48:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -393,7 +393,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e49:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
@@ -401,7 +401,7 @@ jobs:
           otp-version: "25"
           elixir-version: "1.16.3"
   e50:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up Elixir
         uses: erlef/setup-beam@b9c58b0450cd832ccdb3c17cc156a47065d2114f # v1.18.1
