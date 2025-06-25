@@ -41,5 +41,5 @@ jobs:
       - name: Sets up an Erlang/OTP environment
         uses: erlef/setup-beam@v1
         with:
-          elixir-version: ${{needs.versions.outputs.elixir}}
-          otp-version: ${{needs.versions.outputs.otp}}
+          elixir-version: '${{needs.versions.outputs.elixir}}'
+          otp-version: '${{needs.versions.outputs.otp}}'
