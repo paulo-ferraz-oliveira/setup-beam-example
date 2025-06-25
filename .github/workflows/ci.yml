@@ -24,11 +24,11 @@ jobs:
       node: ${{ steps.node.outputs.value }} # changed to steps.node.outputs.value
     steps:
     - id: elixir
-      run: echo "value='1.18.4'" >> $GITHUB_OUTPUT
+      run: echo "value=1.18.4" >> $GITHUB_OUTPUT # removed '
     - id: otp
-      run: echo "value='27.3'" >> $GITHUB_OUTPUT
+      run: echo "value=27.3" >> $GITHUB_OUTPUT # removed '
     - id: node
-      run: echo "value='20.0.0'" >> $GITHUB_OUTPUT
+      run: echo "value=20.0.0" >> $GITHUB_OUTPUT # removed '
 
   pre_build:
     name: Pre Build
