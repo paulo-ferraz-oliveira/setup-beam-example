@@ -38,6 +38,11 @@ jobs:
       - name: Checkout Github repo
         uses: actions/checkout@v4
 
+      - name: Output values
+        run: |
+          echo "_${{needs.versions.outputs.elixir}}_"
+          echo "_${{needs.versions.outputs.otp}}_"
+
       - name: Sets up an Erlang/OTP environment
         uses: erlef/setup-beam@v1
         with:
