@@ -21,7 +21,7 @@ jobs:
     outputs:
       elixir: ${{steps.elixir.outputs.value }}
       otp: ${{ steps.otp.outputs.value }}
-      node: ${{ steps.node.outputs.node.value }}
+      node: ${{ steps.node.outputs.value }} # changed to steps.node.outputs.value
     steps:
     - id: elixir
       run: echo "value='1.18.4'" >> $GITHUB_OUTPUT
