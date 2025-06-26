@@ -43,5 +43,5 @@ jobs:
         with:
           # using a mix of single, quote and no-quote
           elixir-version: '1.18.4'
-          otp-version: "27.3"
+          otp-version: "ref:27.3"
           rebar3-version: 3.25
