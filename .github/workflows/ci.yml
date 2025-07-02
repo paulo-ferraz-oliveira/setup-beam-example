@@ -3,7 +3,7 @@ on:
 
 jobs:
   build-release:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     env:
       MIX_ENV: prod
