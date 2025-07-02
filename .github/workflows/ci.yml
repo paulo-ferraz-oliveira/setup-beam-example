@@ -1,16 +1,18 @@
-name: test
-
 on:
   push:
-    branches:
-      - main
-  pull_request:
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  build-release:
+    runs-on: windows-latest
+
+    env:
+      MIX_ENV: prod
+
     steps:
-      - uses: erlef/setup-beam@v1
-        with:
-          otp-version: "28"
-          gleam-version: "nightly"
+    - uses: actions/checkout@v4
+
+    - name: Set up Elixir
+      uses: erlef/setup-beam@v1
+      with:
+        version-file: .tool-versions
+        version-type: strict
