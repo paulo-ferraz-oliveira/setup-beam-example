@@ -14,4 +14,3 @@ jobs:
         with:
           otp-version: "28"
           gleam-version: "nightly"
-          version-type: "strict"
