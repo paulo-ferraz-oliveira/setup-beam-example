@@ -1,47 +1,17 @@
-name: CI
+name: test
 
 on:
-  push: # added
-  merge_group:
+  push:
+    branches:
+      - main
   pull_request:
-    types: [opened, synchronize]
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
-env:
-  MIX_ENV: test
-  ImageOS: ubuntu22
 
 jobs:
-  versions:
-    name: Export Versions
-    runs-on: ubuntu-22.04
-    outputs:
-      elixir: ${{steps.elixir.outputs.value }}
-      otp: ${{ steps.otp.outputs.value }}
-      node: ${{ steps.node.outputs.value }} # changed to steps.node.outputs.value
+  test:
+    runs-on: ubuntu-latest
     steps:
-    - id: elixir
-      run: echo "value=1.18.4" >> $GITHUB_OUTPUT # removed '
-    - id: otp
-      run: echo "value='27.3'" >> $GITHUB_OUTPUT # removed '
-    - id: node
-      run: echo "value=20.0.0" >> $GITHUB_OUTPUT # removed '
-
-  pre_build:
-    name: Pre Build
-    runs-on: ubuntu-22.04
-    needs: [versions]
-    steps:
-      - name: Checkout Github repo
-        uses: actions/checkout@v4
-
-      - name: Sets up an Erlang/OTP environment
-        uses: erlef/setup-beam@v1
+      - uses: erlef/setup-beam@v1
         with:
-          # using a mix of single, quote and no-quote
-          elixir-version: '1.18.4'
-          otp-version: "27.3"
-          rebar3-version: 3.25
+          otp-version: "28"
+          gleam-version: "nightly"
+          version-type: "strict"
