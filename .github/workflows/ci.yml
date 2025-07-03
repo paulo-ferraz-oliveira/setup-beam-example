@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up Elixir
-      uses: erlef/setup-beam@fix/_tool-versions-split-for-win
+      uses: erlef/setup-beam@v1
       with:
-        version-file: .tool-versions
-        version-type: strict
+        elixir-version: main-otp-28
+        otp-version: maint-28
