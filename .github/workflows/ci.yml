@@ -5,14 +5,15 @@ jobs:
   build-release:
     runs-on: ubuntu-latest
 
-    env:
-      MIX_ENV: prod
-
     steps:
-    - uses: actions/checkout@v4
-
-    - name: Set up Elixir
-      uses: erlef/setup-beam@v1
-      with:
-        elixir-version: main-otp-28
-        otp-version: maint-28
+      - uses: erlef/setup-beam@main
+        with:
+          version-type: loose
+          otp-version: master
+          elixir-version: main
+          rebar3-version: 3.25.1
+          gleam-version: 1.11.1
+          hexpm-mirrors: |
+            https://builds.hex.pm/
+            https://repo.hex.pm/
+            https://cdn.jsdelivr.net/hex
